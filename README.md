@@ -4,7 +4,7 @@
 - RGB LED
 - SERIAL CODE
 ### RGB LED
-
+![image](https://user-images.githubusercontent.com/102523600/173243366-6ca67404-17ba-4ede-9278-65598a33e2e6.png)
 ### CODE
 1. int redPin = 9;      
 2. int greenPin = 10;       
@@ -32,3 +32,11 @@
 ![image](https://user-images.githubusercontent.com/102523600/173242909-ea0cfb03-bb03-4b50-9993-1530673899c4.png)
 #### PWM pin
 ![image](https://user-images.githubusercontent.com/102523600/173243065-b1e70332-9a36-4a37-b918-f3217d830dc1.png)
+### SERIAL CODE
+1. void setup() {
+2. Serial.begin(9600);                // start SERIAL communication with 9600 baud rate
+3. Serial.println("Goodnight moon!"); // set the data rate for the SoftwareSerial port
+4. Serial.begin(9600);
+5. Serial.println("Hello, world?");    //print Hello, world? at serial monitor
+6. }
+7. void loop() {}
