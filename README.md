@@ -23,8 +23,8 @@
 15. setColor(0,100,100); delay(1000);    // yellow
 16. setColor(80,0,80); delay(1000);    // yellow
 17. }
-18. void setColor(int red, int green, int blue){
-19. analogWrite(redPin, red);
+18. void setColor(int red, int green, int blue){ //setColor Function designation (RGB led) can control the intensity of light by utilizing analog signals rather than digital signals such as 0 and 1, i.e., on and off.
+19. analogWrite(redPin, red);     
 20. analogWrite(greenPin, green);
 21. analogWrite(bluePin, blue); 
 22. }
