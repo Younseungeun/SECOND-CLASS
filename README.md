@@ -6,9 +6,9 @@
 ### RGB LED
 
 ### CODE
-1.int redPin = 3;      
-2.int greenPin = 4;       
-3.int bluePin = 5;
+1.int redPin = 8;      
+2.int greenPin = 9;       
+3.int bluePin = 10; //Use pwm pins marked with wavy shapes.
 4.void setup() {
 5.pinMode(redPin, OUTPUT);         
 6.pinMode(greenPin, OUTPUT);           
@@ -28,3 +28,6 @@
 20.analogWrite(greenPin, green);
 21.analogWrite(bluePin, blue); 
 22.}
+### RGB color code
+![image](https://user-images.githubusercontent.com/102523600/173242909-ea0cfb03-bb03-4b50-9993-1530673899c4.png)
+#### PWM pin
