@@ -14,20 +14,17 @@
 6.pinMode(greenPin, OUTPUT);           
 7.pinMode(bluePin, OUTPUT); 
 8.}
- 
-void loop()
-     {   setColor(255, 0, 0); delay(1000); // red
-         setColor(0, 255, 0); delay(1000);  // green
-         setColor(0,0,255); delay(1000);   // blue
-         setColor(0,100,100); delay(1000);     // aqua
-         setColor(130,50,0); delay(1000);   // yellow
-         setColor(0,100,100); delay(1000);    // yellow
-         setColor(80,0,80); delay(1000);    // yellow
-       }
-
-void setColor(int red, int green, int blue)
-     {
-       analogWrite(redPin, red);
-       analogWrite(greenPin, green);
-       analogWrite(bluePin, blue); 
-     }
+9.void loop(){   
+10.setColor(255, 0, 0); delay(1000); // red
+11.setColor(0, 255, 0); delay(1000);  // green
+12.setColor(0,0,255); delay(1000);   // blue
+13.setColor(0,100,100); delay(1000);     // aqua(You can use values from 0 to 255 to make your favorite color.)
+14.setColor(130,50,0); delay(1000);   // yellow
+15.setColor(0,100,100); delay(1000);    // yellow
+16.setColor(80,0,80); delay(1000);    // yellow
+17.}
+18.void setColor(int red, int green, int blue){
+19.analogWrite(redPin, red);
+20.analogWrite(greenPin, green);
+21.analogWrite(bluePin, blue); 
+22.}
